@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cardlogin"
     android:layout_width="300dp"
-    android:layout_height="400dp"
+    android:layout_height="470dp"
     android:layout_marginLeft="50dp"
     android:layout_marginTop="100dp"
     android:clickable="true"
@@ -62,6 +62,21 @@
                 android:paddingEnd="16dp" />
         </com.google.android.material.textfield.TextInputLayout>
 
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            app:cornerRadius="30dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="Acessar" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            app:cornerRadius="30dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="Limpar" />
 
         <TextView
             android:layout_width="wrap_content"
