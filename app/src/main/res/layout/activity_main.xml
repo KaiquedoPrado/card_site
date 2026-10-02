@@ -68,7 +68,7 @@
             app:cornerRadius="30dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#000000"
-            android:text="Acessar" />
+            android:text="Enter" />
 
         <com.google.android.material.button.MaterialButton
             style="@style/Widget.MaterialComponents.Button"
@@ -76,7 +76,7 @@
             app:cornerRadius="30dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#000000"
-            android:text="Limpar" />
+            android:text="Clear" />
 
         <TextView
             android:layout_width="wrap_content"
